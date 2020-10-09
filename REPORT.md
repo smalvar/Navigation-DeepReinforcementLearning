@@ -54,3 +54,6 @@ There is always room for improvement. We can fine tune hyperparameters to get be
 
 [2] ![Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
 
+[3] ![Udacity github](https://github.com/udacity/deep-reinforcement-learning)
+
+[4] ![OpenAI](https://github.com/openai/baselines)
