@@ -4,8 +4,7 @@
 
 For this project, I’ve trainned an agent to navigate and collect bananas in a square world using Unit environment.
 
-
-![Trained Agent](smalvar/NAVIGATION-Deep-Reinforcement-Learning/tainned.gif)]
+![stack Overflow](http://lmsotfy.com/so.png)
 
 Each time the agent collect a yellow banana, it’s given a reward of +1. For each blue banana, it received a -1 reward. The goal of the agent is to collect as many yellow bananas as possible and avoid any blue bananas, as it must increase the score given by the amount of rewards received.  
 
