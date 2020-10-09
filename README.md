@@ -22,7 +22,7 @@ To complete the task the agent must get an average score of 13 over 100 consecut
 ### Starting
 0. Clone this repo.
 
-1. Setup the python enviroment following next link: [udacity/deep-reinforcement-learning](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+1. Setup the python enviroment following next link: ![udacity/deep-reinforcement-learning](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 
 2. Copy the content of the `p1_navigation/` folder from this repo to the `p1_navigation/` folder of the udacity/deep-reinforcement-learning repo and replaces or remove existing files.
 
@@ -41,11 +41,9 @@ Open a jupyter notebook and open the Navigation.ipynb to train or test the agent
 ### Download the environment (not Linux users)
 
 You need to select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+    - Linux: ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - Mac OSX: ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    - Windows (32-bit): ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    - Windows (64-bit): ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
-
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
+    
