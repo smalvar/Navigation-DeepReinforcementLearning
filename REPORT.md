@@ -51,5 +51,6 @@ And the average score produced after 100 iterations is above 13:
 There is always room for improvement. We can fine tune hyperparameters to get better performance, add other layers or even increase the size of our network. I can also implemente the Rainbow algorithm [1] and use Double DQN to address the problem of the overestimation of Q-values [2].
 
 [1] ![Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)
+
 [2] ![Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
 
