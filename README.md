@@ -4,8 +4,9 @@
 
 For this project, I’ve trainned an agent to navigate and collect bananas in a square world using Unit environment.
 
-** WITHOUT TRAINNING **
-![Without trainning](https://s8.gifyu.com/images/ezgif.com-resize4d9dd8916883ee58.md.gif)
+
+![Without trainning](https://s8.gifyu.com/images/trainned.gif)
+![Trainned](https://s8.gifyu.com/images/trainned.gif)
 
 Each time the agent collect a yellow banana, it’s given a reward of +1. For each blue banana, it received a -1 reward. The goal of the agent is to collect as many yellow bananas as possible and avoid any blue bananas, as it must increase the score given by the amount of rewards received.  
 
