@@ -15,7 +15,13 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 To complete the task the agent must get an average score of 13 over 100 consecutive episodes. 
 
-This project implements a Value Based method named Deep Q-Networks, which combines two approaches: Q Learning (reinforcement learning method) and Q-table approximation learnt by a deep neural network.
+This project implements a Deep Q-Networks, which combines two approaches: Q Learning (reinforcement learning method) and Q-table approximation learnt by a deep neural network.
+
+The code consist of :
+
+- QNetwork class: regular fully connected deep neural network using PyTorch. We can change the size of the hidden layers here. 
+- Replay Buffer: initialize the buffer and the target and local neural networks. Every 4 steps it updates the target network weights with the current weight values from the.
+- DQN_agent class: a DQN agent is defined.
 
 ### Neural network implementation
 3 layers that include the input layer (37 dimensions), 1st hidden layer (64 dimensions), 2nd hidden layer (64 dimensions), 3rd output layer (4 dimensions representing each action). DNN was trained with Adam (Adaptive Moment Estimation). 
@@ -40,9 +46,10 @@ And the average score produced after 100 iterations is above 13:
 ### Plot of Rewards
 ![score](./score.png)
 
+## Improvement
 
-The code consist of :
+There is always room for improvement. We can fine tune hyperparameters to get better performance, add other layers or even increase the size of our network. I can also implemente the Rainbow algorithm [1] and use Double DQN to address the problem of the overestimation of Q-values [2].
 
-- QNetwork class: regular fully connected deep neural network using PyTorch. We can change the size of the hidden layers here. 
-- Replay Buffer: initialize the buffer and the target and local neural networks. Every 4 steps it updates the target network weights with the current weight values from the.
-- dqn_agent class: a DQN agent is defined.
+[1] ![Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)
+[2] ![Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
+
