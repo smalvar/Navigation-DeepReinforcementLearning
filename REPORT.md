@@ -25,6 +25,9 @@ Agent was trained with a maximum of 700 episodes, or once the achieved score is 
 Solved within 700 episodes (solved in 294 episodes: excellent result!)
 
 ![score](./solved.png)
+
+And the average score produced after 100 iterations is above 13:
+
 ![score](./average.png)
 ### Hyperparameters
  - Replay Buffer Size: 100000 
