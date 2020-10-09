@@ -2,7 +2,7 @@
 
 ### Introduction
 
-For this project, I’ve trainned an agent to navigate and collect bananas in a square world using Unit environment.
+For this project, I’ve trainned an agent to navigate and collect bananas in a square world using Unit environment. You can find bellow the two conditions: without any trainning and trainned agent.
 
 
 ![Without trainning](https://s8.gifyu.com/images/ezgif.com-resizeec564f8172fe19de.gif)
