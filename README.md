@@ -4,7 +4,7 @@
 
 For this project, I’ve trainned an agent to navigate and collect bananas in a square world using Unit environment.
 
-![stack Overflow](http://lmsotfy.com/so.png)
+![stack Overflow](https://s8.gifyu.com/images/sem_treinamento.gif)
 
 Each time the agent collect a yellow banana, it’s given a reward of +1. For each blue banana, it received a -1 reward. The goal of the agent is to collect as many yellow bananas as possible and avoid any blue bananas, as it must increase the score given by the amount of rewards received.  
 
@@ -40,9 +40,13 @@ Open a jupyter notebook and open the Navigation.ipynb to train or test the agent
 ### Download the environment (not Linux users)
 
 You need to select the environment that matches your operating system:
+
     - Linux: ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    
     - Mac OSX: ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    
     - Windows (32-bit): ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    
     - Windows (64-bit): ![click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
     
